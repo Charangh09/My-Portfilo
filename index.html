@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>charan </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 53);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(11, 11, 79)
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(88, 88, 226)
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px;
+
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+
+        }
+
+        .leftsection .button {
+            padding: 23px;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: rgb(98, 22, 98);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 100%;
+
+        }
+
+        .purple {
+            color: rgb(166, 99, 228);
+        }
+
+        #element {
+            color: rgb(166, 99, 228);
+        }
+
+        .text-gray {
+            color: rgb(76, 76, 107);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.5rem;
+            margin: 32px 0px;
+            color: rgb(166, 99, 228);
+        }
+
+        .secondsection .check {
+            background: white;
+            width: 65vw;
+            height: 2px;
+            margin: 30px 50;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 80px;
+        }
+
+        .imagetop {
+            width: 85px;
+            left: -41px;
+            position: relative;
+            top: 96px;
+        }
+
+        .verticalclass {
+            position: relative;
+            left: -24px;
+            top: 91px
+        }
+
+        .javaimg {
+            width: 62px;
+            left: -31px;
+            position: relative;
+            top: 96px;
+        }
+
+        .java {
+            position: relative;
+            left: -21px;
+            top: 90px;
+        }
+
+        .htmlimg {
+            width: 62px;
+            left: -31px;
+            position: relative;
+            top: 96px;
+        }
+
+        .html {
+            position: relative;
+            left: -21px;
+            top: 90px;
+        }
+
+        .cssimg {
+            width: 62px;
+            left: -31px;
+            position: relative;
+            top: 96px;
+        }
+
+        .css {
+            position: relative;
+            left: -21px;
+            top: 90px;
+        }
+
+        .jsimg {
+            width: 99px;
+            left: -47px;
+            position: relative;
+            top: 95px;
+        }
+
+        .js {
+            position: relative;
+            left: -38px;
+            top: 90px;
+        }
+
+        .sqlimg {
+            width: 70px;
+            left: -41px;
+            position: relative;
+            top: 96px;
+        }
+
+        .sql {
+            position: relative;
+            left: -24px;
+            top: 91px;
+        }
+
+        .secondsection h2 {
+            font-size: 0.9rem;
+            width: 30%;
+            margin: auto;
+        }
+
+        .vertical-line {
+            width: 321.2px;
+            font-size: 14px;
+            color: rgb(166, 99, 228);
+        }
+
+        .vertical-line h1 {
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 53px 222px;
+            font-size: 30px;
+            justify-content: space-evenly;
+            margin: -29px -151px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .thirdsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .thirdsection h1 {
+            font-size: 1.5rem;
+            margin: -329px 2px;
+            color: rgb(166, 99, 228);
+        }
+
+        .firstline {
+            margin: 335px 0px;
+        }
+
+        .secondline {
+            margin: -315px 0px;
+        }
+
+        .thirdline {
+            margin: 327px 0px;
+        }
+
+        footer .textcenter {
+            text-align: center;
+            color: grey;
+            font-size: 1.2rem;
+            padding: 12px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Charan's profilo</div>
+            <div class="right">
+                <ul>
+                    <li><a href="file:///C:/Users/sirik/profilo%20project/index.html">Home</a></li>
+                    <li><a href="https://www.linkedin.com/in/sricharan-sirikonda-5b14b0247/">Linkdin</a></li>
+                    <li><a
+                            href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCpGZlzGvZCgqHPhZMqxwSxVMMnCPbDqmsjdsmQnLwXrbfPwwfmPHtpGmqXdQwgtVnLcXz">Contact</a>
+                    </li>
+                    <li><a href="https://github.com/Charangh09?tab=projects">projects</a></li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi This is <span class="purple">SriCharan</span>
+                <div>Welcome to my website</div>
+                <div>I am a</div>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="https://drive.google.com/file/d/146hcQLVkuYiiX6-qRISmE1l40Xih6aGk/view?usp=sharing" class="btn">Resume</a>
+                    <a href="https://github.com/Charangh09" class="btn">Visit Github</a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed('#element', {
+                    strings: ['Student', 'Learner', 'programmer', 'developer'],
+                    typeSpeed: 50,
+                });
+            </script>
+        </section>
+        <section class="secondsection">
+            <h1>Skills</h1>
+            <div class="check">
+                <div class="vertical">
+                    <img class="imagetop" src="py.png" alt="">
+                    <div class="verticalclass">
+                        Python
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="javaimg" src="java.png" alt="">
+                    <div class="java">
+                        Java
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="htmlimg" src="html.png" alt="">
+                    <div class="html">
+                        HTML
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="cssimg" src="css.png" alt="">
+                    <div class="css">
+                        CSS
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="jsimg" src="js.png" alt="">
+                    <div class="js">
+                        Javascript
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="sqlimg" src="sql.png" alt="">
+                    <div class="sql">
+                        SQL
+                    </div>
+                </div>
+
+        </section>
+        <section class="thirdsection">
+            <h1> Currently Graduating at</h1>
+            <div class="firstline">Graduating at Chaitanya Bharathi Institute Of Technology
+            </div>
+            <div class="secondline">B.E-Artificial intelligence and Data science</div>
+            <div class="thirdline">2022-2026</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            Charan's Profile
+            <div>
+                <div class="contact">
+                    <ul>
+                        <li> Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="textcenter">
+                www.charansprofilo.com | All rights reserved
+            </div>
+    </footer>
+</body>
+
+</html>
